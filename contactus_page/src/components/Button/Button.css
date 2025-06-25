@@ -1,0 +1,23 @@
+.primary_btn, .outline_btn {
+  padding: 18px 10px;
+  font-size: 16px;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.primary_btn {
+  background-color: black;
+  color: white;
+}
+
+.outline_btn {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
