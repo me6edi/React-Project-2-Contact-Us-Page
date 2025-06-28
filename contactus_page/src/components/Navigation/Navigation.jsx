@@ -1,21 +1,19 @@
-import './Navigation.css'; 
+import styles from "./Navigation.module.css";
 
-function Navigation() {
+const Navigation = () => {
   return (
-    <header>
-      <nav className="container">
-        <div className="logo">
-          <img src="img/logo.png" alt="logo" />
-        </div>
+    <nav className={`${styles.navigation} container`}>
+      <div className="logo">
+        <img src="/images/logo.png" alt="do some coding logo" />
+      </div>
 
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
   );
-}
+};
 
 export default Navigation;
